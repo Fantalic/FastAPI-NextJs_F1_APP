@@ -1,0 +1,2 @@
+- render only vible rows
+- limit respond entries from the api to 1000

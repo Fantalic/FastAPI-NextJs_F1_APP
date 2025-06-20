@@ -1,0 +1,5 @@
+data
+.venv
+*.db
+*.exe
+__pycache__
