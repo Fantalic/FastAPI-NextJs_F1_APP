@@ -1,3 +1,6 @@
+## DESCRIPTION
+A scalable web app for exploring and editing Formula 1 data from Kaggle. It includes a Go tool to convert CSV files to a SQLite database, a FastAPI backend API for data access and editing, and a Next.js frontend with searchable tables, sorting, and embedded maps. Designed with clean separation of concerns, state management via URL, and easy setup. Future plans include authentication, real-time updates, and AI-assisted data parsing.
+
 ## USAGE ( windows )
 1. Create the database from csv files:
 - (download formel1 data from kaggle; see link below under SOURCES)
@@ -57,6 +60,7 @@ Search input : https://www.creative-tim.com/twcomponents/component/search-input-
 
 
 ## TODOS:
+- use .env files for config
 - login and session token creation
 - better performance: only visible rows; checking every trigger of rerender
 - websocket for update events
@@ -65,7 +69,7 @@ Search input : https://www.creative-tim.com/twcomponents/component/search-input-
 - reasonable organisation in one git repo
 - write an install script
 - convert all scripts to sh scripts
-- limit API response to 100-500 entries
+- limit API response to 100-500 entries 
 - ...
 
 
