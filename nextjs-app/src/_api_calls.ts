@@ -38,6 +38,20 @@ export async function fetchTables() {
     }
 }
 
+
+export async function fetchPortraitSrc(url:string){
+    try{
+        const res = await fetch("/api/extract-portrait?url=" + url)
+        const data = await res.json()
+        return data["image_url"]
+    }
+    catch (e) {
+        console.error(e)
+        return ""
+    }
+
+}
+
 export async function saveEntry(table:string, entry:Record<string,any>) {
     try {
         const res = await fetch(

@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react';
 import Edit from './icons/Edit';
 import Save from './icons/Save';
-import { fetchPortraitSrc, isWikipediaUrl } from '@/_utils';
+import { isWikipediaUrl } from '@/_utils';
 import { SpecialIds } from '@/_types';
+import { fetchPortraitSrc } from '@/_api_calls';
 
 interface IProps{
     data:Record<string,any>

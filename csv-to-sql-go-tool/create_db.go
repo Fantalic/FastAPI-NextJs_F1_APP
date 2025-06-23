@@ -29,10 +29,6 @@ func main() {
 	print("database name: ", db_name)
 	print("\n")
 
-	if len(os.Args) > 2 {
-		folder = os.Args[2] // Argument wurde übergeben
-	}
-
 	db, err := sql.Open("sqlite3", db_name+".db")
 	if err != nil {
 		log.Fatal("Datenbank öffnen:", err)
