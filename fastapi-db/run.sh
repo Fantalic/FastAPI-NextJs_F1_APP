@@ -11,3 +11,4 @@ uvicorn api:app --reload &
 
 # Return to the original directory
 popd
+
