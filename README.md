@@ -73,9 +73,9 @@ Search input : https://www.creative-tim.com/twcomponents/component/search-input-
 - ...
 
 
-
-## requirements.txt erstellen
-$ pip freeze > requirements.txt
+## NOTES:
+- requirements.txt erstellen
+    $ pipreqs ./src/ 
 
 
 
